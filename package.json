@@ -1,0 +1,49 @@
+{
+  "name": "@jill64/types-lambda",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Unofficial AWS Lambda type definition",
+  "main": "types/index.ts",
+  "license": "MIT",
+  "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
+  "bugs": "https://github.com/jill64/types-lambda/issues",
+  "homepage": "https://github.com/jill64/types-lambda#readme",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./types/index.ts",
+      "default": "./types/index.ts"
+    }
+  },
+  "keywords": [
+    "aws",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jill64/types-lambda.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "prettier --check . && eslint . && publint",
+    "format": "prettier --write ."
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "6.7.3",
+    "@typescript-eslint/parser": "6.7.3",
+    "eslint": "8.50.0",
+    "prettier": "3.0.3",
+    "publint": "0.2.2"
+  },
+  "dependencies": {
+    "@types/node": "^20.7.1",
+    "typescript": "5.2.2"
+  }
+}
