@@ -15,7 +15,7 @@ import { LambdaResponsePayload } from './LambdaResponsePayload.js'
  * ```
  * @see https://docs.aws.amazon.com/lambda/latest/dg/nodejs-handler.html#nodejs-handler-callback
  */
-export type LambdaResponseCallback = (
+export type LambdaResponseCallback<T = LambdaResponsePayload> = (
   error: Error | null,
-  result?: LambdaResponsePayload
+  result?: T
 ) => void
