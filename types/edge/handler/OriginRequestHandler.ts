@@ -7,13 +7,9 @@ import { OriginType } from '../field/OriginType.js'
 
 export type OriginRequestHandler<
   Origin extends OriginType,
-  RequestOrigin extends OriginType,
   IncludeBody extends EdgeIncludeBodyOption = undefined
 > = (
   event: OriginRequestEvent<Origin, IncludeBody>,
   context: LambdaRequestContext,
-  callback: LambdaResponseCallback<EdgeRequestReturnValue<RequestOrigin>>
-) =>
-  | Promise<EdgeRequestReturnValue<RequestOrigin> | void>
-  | EdgeRequestReturnValue<RequestOrigin>
-  | void
+  callback: LambdaResponseCallback<EdgeRequestReturnValue>
+) => Promise<EdgeRequestReturnValue | void> | EdgeRequestReturnValue | void

@@ -43,4 +43,4 @@ export type EdgeRequest<T extends EdgeIncludeBodyOption = undefined> = {
        */
       body?: EdgeRequestBody
     }
-  : never)
+  : Record<never, never>)
