@@ -1,7 +1,7 @@
 import { EdgeResponse } from './EdgeResponse.js'
 import { OriginRequest } from './OriginRequest.js'
-import { OriginType } from './OriginType.js'
 
-export type EdgeRequestReturnValue<T extends OriginType> =
+export type EdgeRequestReturnValue =
   | EdgeResponse
-  | OriginRequest<T>
+  | OriginRequest<'custom'>
+  | OriginRequest<'s3'>
