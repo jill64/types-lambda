@@ -1,7 +1,9 @@
+import { EdgeEventType } from './EdgeEventType.js'
+
 /**
  * https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-event-structure.html#request-event-fields-config
  */
-export type CfConfig<EventType extends 'viewer-request' | 'origin-request'> = {
+export type CfConfig<EventType extends EdgeEventType> = {
   /**
    * The domain name of the distribution that's associated with the request.
    * @example "d111111abcdef8.cloudfront.net"
