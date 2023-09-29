@@ -1,5 +1,5 @@
-import { CfConfig } from './CfConfig.js'
-import { EdgeRequest } from './EdgeRequest.js'
+import { CfConfig } from './field/CfConfig.js'
+import { EdgeRequest } from './field/EdgeRequest.js'
 
 /**
  * @see https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-event-structure.html#example-viewer-request
