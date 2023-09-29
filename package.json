@@ -9,7 +9,7 @@
   "bugs": "https://github.com/jill64/types-lambda/issues",
   "homepage": "https://github.com/jill64/types-lambda#readme",
   "files": [
-    "dist"
+    "types"
   ],
   "exports": {
     ".": {
