@@ -1,8 +1,8 @@
-import { CfConfig } from './field/CfConfig.js'
-import { EdgeIncludeBodyOption } from './field/EdgeIncludeBodyOption.js'
-import { EdgeOriginType } from './field/EdgeOriginType.js'
-import { EdgeRequest } from './field/EdgeRequest.js'
-import { OriginRequest } from './field/OriginRequest.js'
+import { CfConfig } from '../field/CfConfig.js'
+import { EdgeIncludeBodyOption } from '../field/EdgeIncludeBodyOption.js'
+import { EdgeOriginType } from '../field/EdgeOriginType.js'
+import { EdgeRequest } from '../field/EdgeRequest.js'
+import { OriginRequest } from '../field/OriginRequest.js'
 
 /**
  * @see https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-event-structure.html#example-origin-request
