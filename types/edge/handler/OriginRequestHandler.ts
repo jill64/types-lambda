@@ -14,5 +14,6 @@ export type OriginRequestHandler<
   context: LambdaRequestContext,
   callback: LambdaResponseCallback<EdgeRequestReturnValue<RequestOrigin>>
 ) =>
-  | Promise<EdgeRequestReturnValue<RequestOrigin>>
+  | Promise<EdgeRequestReturnValue<RequestOrigin> | void>
   | EdgeRequestReturnValue<RequestOrigin>
+  | void

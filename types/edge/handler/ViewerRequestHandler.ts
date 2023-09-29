@@ -12,4 +12,7 @@ export type ViewerRequestHandler<
   event: ViewerRequestEvent<IncludeBody>,
   context: LambdaRequestContext,
   callback: LambdaResponseCallback<EdgeRequestReturnValue<Origin>>
-) => Promise<EdgeRequestReturnValue<Origin>> | EdgeRequestReturnValue<Origin>
+) =>
+  | Promise<EdgeRequestReturnValue<Origin> | void>
+  | EdgeRequestReturnValue<Origin>
+  | void

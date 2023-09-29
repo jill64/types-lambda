@@ -12,4 +12,4 @@ export type OriginResponseHandler<
   event: OriginResponseEvent<Origin, IncludeBody>,
   context: LambdaRequestContext,
   callback: LambdaResponseCallback<EdgeResponseReturnValue>
-) => Promise<EdgeResponseReturnValue> | EdgeResponseReturnValue
+) => Promise<EdgeResponseReturnValue | void> | EdgeResponseReturnValue | void

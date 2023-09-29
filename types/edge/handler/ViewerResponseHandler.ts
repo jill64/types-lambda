@@ -7,4 +7,4 @@ export type ViewerResponseHandler = (
   event: ViewerResponseEvent,
   context: LambdaRequestContext,
   callback: LambdaResponseCallback<EdgeResponseReturnValue>
-) => Promise<EdgeResponseReturnValue> | EdgeResponseReturnValue
+) => Promise<EdgeResponseReturnValue | void> | EdgeResponseReturnValue | void
