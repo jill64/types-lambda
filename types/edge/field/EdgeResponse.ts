@@ -22,7 +22,7 @@ export type EdgeResponse = {
    */
   status: string
   /**
-   * The description that you want CloudFront to return in the response, to accompany the HTTP status code. 
+   * The description that you want CloudFront to return in the response, to accompany the HTTP status code.
    * You don't need to use standard descriptions, such as OK for an HTTP status code of 200.
    * @example 'OK'
    */
