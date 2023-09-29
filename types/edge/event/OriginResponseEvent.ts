@@ -1,14 +1,14 @@
-import { OriginRequestEvent } from './OriginRequestEvent.js'
 import { CfConfig } from '../field/CfConfig.js'
 import { EdgeIncludeBodyOption } from '../field/EdgeIncludeBodyOption.js'
-import { EdgeOriginType } from '../field/EdgeOriginType.js'
 import { OriginResponse } from '../field/OriginResponse.js'
+import { OriginType } from '../field/OriginType.js'
+import { OriginRequestEvent } from './OriginRequestEvent.js'
 
 /**
  * @see https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-event-structure.html#lambda-event-structure-response-origin
  */
 export type OriginResponseEvent<
-  Origin extends EdgeOriginType,
+  Origin extends OriginType,
   IncludeBody extends EdgeIncludeBodyOption = undefined
 > = {
   Records: [

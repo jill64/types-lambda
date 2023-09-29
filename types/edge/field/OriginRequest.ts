@@ -1,11 +1,11 @@
 import { EdgeHeaders } from './EdgeHeaders.js'
-import { EdgeOriginType } from './EdgeOriginType.js'
+import { OriginType } from './OriginType.js'
 
 /**
  * The origin to send the request to.
  * The origin structure must contain exactly one origin, which can be a custom origin or an Amazon S3 origin.
  */
-export type OriginRequest<T extends EdgeOriginType> = {
+export type OriginRequest<T extends OriginType> = {
   /**
    * You can include custom headers with the request by specifying a header name and value pair for each custom header.
    * You can't add headers that are disallowed, and a header with the same name can't be present in `Records.cf.request.headers`.

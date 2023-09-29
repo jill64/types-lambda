@@ -2,11 +2,11 @@ import { LambdaRequestContext } from '../../lambda/LambdaRequestContext.js'
 import { LambdaResponseCallback } from '../../lambda/LambdaResponseCallback.js'
 import { OriginResponseEvent } from '../event/OriginResponseEvent.js'
 import { EdgeIncludeBodyOption } from '../field/EdgeIncludeBodyOption.js'
-import { EdgeOriginType } from '../field/EdgeOriginType.js'
 import { EdgeResponseReturnValue } from '../field/EdgeResponseReturnValue.js'
+import { OriginType } from '../field/OriginType.js'
 
 export type OriginResponseHandler<
-  Origin extends EdgeOriginType,
+  Origin extends OriginType,
   IncludeBody extends EdgeIncludeBodyOption = undefined
 > = (
   event: OriginResponseEvent<Origin, IncludeBody>,
