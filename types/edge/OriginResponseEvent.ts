@@ -1,4 +1,5 @@
 import { OriginRequestEvent } from './OriginRequestEvent.js'
+import { CfConfig } from './field/CfConfig.js'
 import { EdgeIncludeBodyOption } from './field/EdgeIncludeBodyOption.js'
 import { EdgeOriginType } from './field/EdgeOriginType.js'
 import { OriginResponse } from './field/OriginResponse.js'
@@ -9,10 +10,15 @@ import { OriginResponse } from './field/OriginResponse.js'
 export type OriginResponseEvent<
   Origin extends EdgeOriginType,
   IncludeBody extends EdgeIncludeBodyOption = undefined
-> = OriginRequestEvent<Origin, IncludeBody> & {
+> = {
   Records: [
     {
       cf: {
+        config: CfConfig<'origin-response'>
+        request: OriginRequestEvent<
+          Origin,
+          IncludeBody
+        >['Records'][0]['cf']['request']
         response: OriginResponse
       }
     }
