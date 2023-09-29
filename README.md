@@ -58,8 +58,6 @@ export const handler = awslambda.streamifyResponse(
 
 ### [Lambda@Edge](./types/edge/index.ts)
 
-[Event Structure](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-event-structure.html#lambda-event-structure-request)
-
 ```ts
 import type { OriginRequestHandler } from '@jill64/types-lambda'
 
