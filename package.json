@@ -29,7 +29,7 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "prettier --check . && eslint . && publint",
+    "lint": "prettier --check . && eslint . && tsc && publint",
     "format": "prettier --write ."
   },
   "peerDependencies": {
