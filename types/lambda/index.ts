@@ -1,5 +1,1 @@
 export type { LambdaHandler } from './LambdaHandler.js'
-export type { LambdaRequestContext } from './LambdaRequestContext.js'
-export type { LambdaRequestPayload } from './LambdaRequestPayload.js'
-export type { LambdaResponseCallback } from './LambdaResponseCallback.js'
-export type { LambdaResponsePayload } from './LambdaResponsePayload.js'
