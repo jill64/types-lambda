@@ -1,7 +1,7 @@
+import { OriginRequestEvent } from '../event/OriginRequestEvent.js'
 import { EdgeResponse } from './EdgeResponse.js'
-import { OriginRequest } from './OriginRequest.js'
 
 export type EdgeRequestReturnValue =
   | EdgeResponse
-  | OriginRequest<'custom'>
-  | OriginRequest<'s3'>
+  | OriginRequestEvent<'custom'>['Records'][0]['cf']['request']
+  | OriginRequestEvent<'s3'>['Records'][0]['cf']['request']
