@@ -39,6 +39,7 @@ export type EdgeRequest<T extends EdgeIncludeBodyOption = undefined> = {
   ? {
       /**
        * The body of the HTTP request.
+       * @see https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-include-body-access.html
        */
       body?: EdgeRequestBody
     }
