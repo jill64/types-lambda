@@ -1,4 +1,4 @@
-import { Json } from '../field/JSON.js'
+import type { Json } from '../field/Json.js'
 
 /**
  * API Gateway makes the following assumptions if your Lambda function returns valid JSON and doesn't return a statusCode:

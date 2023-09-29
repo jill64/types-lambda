@@ -1,10 +1,11 @@
 import { EdgeHeaders } from './EdgeHeaders.js'
+import { EdgeIncludeBodyOption } from './EdgeIncludeBodyOption.js'
 import { EdgeRequestBody } from './EdgeRequestBody.js'
 
 /**
  * @see https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-event-structure.html#request-event-fields-request
  */
-export type EdgeRequest<T extends 'include-body' | undefined = undefined> = {
+export type EdgeRequest<T extends EdgeIncludeBodyOption = undefined> = {
   /**
    *
    * The IP address of the viewer that made the request.
@@ -39,6 +40,6 @@ export type EdgeRequest<T extends 'include-body' | undefined = undefined> = {
       /**
        * The body of the HTTP request.
        */
-      body: EdgeRequestBody
+      body?: EdgeRequestBody
     }
   : never)
