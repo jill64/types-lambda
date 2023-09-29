@@ -34,7 +34,7 @@ export type EdgeRequest<T extends EdgeIncludeBodyOption = undefined> = {
    * - When a function changes the uri value, that changes the object that the viewer is requesting.
    * - When a function changes the uri value, that doesn't change the cache behavior for the request or the origin that the request is sent to.
    */
-  uri: '/'
+  uri: string
 } & (T extends 'include-body'
   ? {
       /**
