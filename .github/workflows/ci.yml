@@ -5,3 +5,4 @@ on: push
 jobs:
   lint:
     uses: jill64/workflows/.github/workflows/lint.yml@main
+    secrets: inherit
