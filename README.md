@@ -1,5 +1,7 @@
 # types-lambda
 
+[![npm](https://img.shields.io/npm/v/%40jill64%2Ftypes-lambda)](https://npmjs.com/package/@jill64/types-lambda)
+
 Unofficial AWS Lambda type definition
 
 ## Install
