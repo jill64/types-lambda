@@ -1,3 +1,5 @@
+import { WritableStream } from 'node:stream/web'
+
 /**
  * A writable stream that can be used to emit chunks of a response.
  * @see https://docs.aws.amazon.com/lambda/latest/dg/configuration-response-streaming.html#config-rs-write-functions-handler
