@@ -29,7 +29,7 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "npx prettier --check . && npx eslint && tsc && npx publint",
+    "lint": "npx prettier --check . && npx eslint && tsc && npx publint && npx depcheck",
     "format": "npx prettier --write ."
   },
   "peerDependencies": {
