@@ -1,6 +1,6 @@
 {
   "name": "@jill64/types-lambda",
-  "version": "0.1.17",
+  "version": "0.1.18",
   "type": "module",
   "description": "Unofficial AWS Lambda type definition",
   "main": "types/index.ts",
@@ -41,6 +41,6 @@
     "typescript": "5.2.2"
   },
   "dependencies": {
-    "@types/node": "20.8.6"
+    "@types/node": "20.8.7"
   }
 }
