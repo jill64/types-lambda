@@ -2,10 +2,14 @@ extends:
   - eslint:recommended
   - plugin:@typescript-eslint/recommended
 parser: '@typescript-eslint/parser'
+parserOptions:
+  ecmaVersion: 2020
+  sourceType: module
+  project: ./tsconfig.json
 plugins:
   - '@typescript-eslint'
-parserOptions:
-  sourceType: module
-  ecmaVersion: 2020
+  - deprecation
+rules:
+  deprecation/deprecation: error
 env:
   node: true
