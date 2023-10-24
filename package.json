@@ -1,6 +1,6 @@
 {
   "name": "@jill64/types-lambda",
-  "version": "0.1.18",
+  "version": "1.0.0",
   "type": "module",
   "description": "Unofficial AWS Lambda type definition",
   "main": "types/index.ts",
@@ -19,7 +19,9 @@
   },
   "keywords": [
     "aws",
-    "typescript"
+    "lambda",
+    "typescript",
+    "handler"
   ],
   "repository": {
     "type": "git",
@@ -29,7 +31,7 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "npx prettier --check . && npx eslint && tsc && npx publint && npx depcheck",
+    "lint": "npx prettier --check . && npx eslint . && tsc && npx publint && npx depcheck",
     "format": "npx prettier --write ."
   },
   "peerDependencies": {
