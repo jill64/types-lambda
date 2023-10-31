@@ -44,6 +44,6 @@
     "typescript": "5.2.2"
   },
   "dependencies": {
-    "@types/node": "20.8.9"
+    "@types/node": "20.8.10"
   }
 }
