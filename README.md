@@ -6,6 +6,12 @@
 
 Unofficial AWS Lambda type definition
 
+## Install
+
+```sh
+npm i @jill64/types-lambda
+```
+
 <!----- END GHOST DOCS HEADER ----->
 
 ## Install
