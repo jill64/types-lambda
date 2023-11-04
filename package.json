@@ -9,7 +9,9 @@
   "bugs": "https://github.com/jill64/types-lambda/issues",
   "homepage": "https://github.com/jill64/types-lambda#readme",
   "files": [
-    "types"
+    "types",
+    "!*.test.*",
+    "!*.spec.*"
   ],
   "exports": {
     ".": {
@@ -20,8 +22,7 @@
   "keywords": [
     "aws",
     "lambda",
-    "typescript",
-    "handler"
+    "types"
   ],
   "repository": {
     "type": "git",
