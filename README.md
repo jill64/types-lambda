@@ -67,7 +67,7 @@ import type { OriginRequestHandler } from '@jill64/types-lambda'
 
 export const handler: OriginRequestHandler = async (event, context) => {
   // ...
-  
+
   return {
     status: '200'
   }
