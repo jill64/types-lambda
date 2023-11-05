@@ -14,12 +14,6 @@ npm i @jill64/types-lambda
 
 <!----- END GHOST DOCS HEADER ----->
 
-## Install
-
-```sh
-npm i -D @jill64/types-lambda
-```
-
 ## Examples
 
 ## [Lambda (Function URL)](./types/lambda/LambdaHandler.ts)
