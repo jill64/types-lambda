@@ -21,16 +21,12 @@ npm i @jill64/types-lambda
 ```ts
 import type { LambdaHandler } from '@jill64/types-lambda'
 
-const url = 'https://aws.amazon.com/'
-
 export const handler: LambdaHandler = async (event) => {
-  try {
-    const res = await fetch(url)
-    console.info('status', res.status)
-    return res.status
-  } catch (e) {
-    console.error(e)
-    return 500
+  // ...
+
+  return {
+    statusCode: 200,
+    body: 'Hello from Lambda !'
   }
 }
 ```
@@ -42,11 +38,12 @@ import { awslambda } from '@jill64/types-lambda'
 
 export const handler = awslambda.streamifyResponse(
   async (event, responseStream, _context) => {
+    // ...
+
     const metadata = {
       statusCode: 200,
       headers: {
-        'Content-Type': 'application/json',
-        CustomHeader: 'outerspace'
+        'Content-Type': 'application/json'
       }
     }
 
@@ -57,6 +54,7 @@ export const handler = awslambda.streamifyResponse(
     responseStream.write('Hello 1 \n')
     responseStream.write('Hello 2 \n')
     responseStream.end()
+
     await responseStream.finished()
   }
 )
@@ -68,22 +66,10 @@ export const handler = awslambda.streamifyResponse(
 import type { OriginRequestHandler } from '@jill64/types-lambda'
 
 export const handler: OriginRequestHandler = async (event, context) => {
-  const response = event.Records[0].cf.response
-  const headers = response.headers
-
-  const headerNameSrc = 'X-Amz-Meta-Last-Modified'
-  const headerNameDst = 'Last-Modified'
-
-  if (headers[headerNameSrc.toLowerCase()]) {
-    headers[headerNameDst.toLowerCase()] = [
-      headers[headerNameSrc.toLowerCase()][0]
-    ]
-    console.log(
-      `Response header "${headerNameDst}" was set to ` +
-        `"${headers[headerNameDst.toLowerCase()][0].value}"`
-    )
+  // ...
+  
+  return {
+    status: '200'
   }
-
-  return response
 }
 ```
