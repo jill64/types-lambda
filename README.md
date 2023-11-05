@@ -16,7 +16,7 @@ npm i @jill64/types-lambda
 
 ## Examples
 
-## [Lambda (Function URL)](./types/lambda/LambdaHandler.ts)
+### [Lambda (Function URL)](./types/lambda/LambdaHandler.ts)
 
 ```ts
 import type { LambdaHandler } from '@jill64/types-lambda'
