@@ -1,6 +1,6 @@
 {
   "name": "@jill64/types-lambda",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "type": "module",
   "description": "λ Unofficial AWS Lambda type definition",
   "main": "types/index.ts",
