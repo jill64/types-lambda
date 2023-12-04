@@ -6,7 +6,7 @@
 
 λ Unofficial AWS Lambda type definition
 
-## Install
+## Installation
 
 ```sh
 npm i @jill64/types-lambda
