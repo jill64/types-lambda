@@ -5,7 +5,12 @@
   "description": "λ Unofficial AWS Lambda type definition",
   "main": "types/index.ts",
   "license": "MIT",
-  "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
+  "author": {
+    "name": "jill64",
+    "email": "143883742+jill64@users.noreply.github.com",
+    "url": "https://github.com/jill64",
+    "image": "https://avatars.githubusercontent.com/u/143883742?v=4"
+  },
   "bugs": "https://github.com/jill64/types-lambda/issues",
   "homepage": "https://github.com/jill64/types-lambda#readme",
   "files": [
@@ -26,7 +31,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jill64/types-lambda.git"
+    "url": "https://github.com/jill64/types-lambda.git",
+    "image": "https://opengraph.githubassets.com/a1b17e175d3ad4eaaa48f571847b7029f8621f558b00778753f9067ba8f9c792/jill64/types-lambda"
   },
   "publishConfig": {
     "access": "public"
