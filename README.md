@@ -67,3 +67,11 @@ export const handler: OriginRequestHandler = async (event, context) => {
   }
 }
 ```
+
+<!----- BEGIN GHOST DOCS FOOTER ----->
+
+## License
+
+MIT
+
+<!----- END GHOST DOCS FOOTER ----->
