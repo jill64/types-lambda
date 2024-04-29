@@ -19,5 +19,5 @@ export type ResponseStreamMetadata = {
    * HTTP cookies
    * @example ["cookie1=value1", "cookie2=value2"]
    */
-  cookies: string[]
+  cookies?: string[]
 }
