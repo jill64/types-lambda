@@ -1,6 +1,6 @@
 {
   "name": "@jill64/types-lambda",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "type": "module",
   "description": "λ Unofficial AWS Lambda type definition",
   "main": "types/index.ts",
@@ -32,7 +32,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/types-lambda.git",
-    "image": "https://opengraph.githubassets.com/94846a6bb53ab942434194172612a0d54c5a1a6bf43e2c7ad39d094ca5753ef7/jill64/types-lambda"
+    "image": "https://opengraph.githubassets.com/969e4aa61d3acebe3220fd59bd8079fd33ef3f3d0507545bb24c970445e9e95d/jill64/types-lambda"
   },
   "publishConfig": {
     "access": "public"
@@ -46,7 +46,7 @@
   },
   "prettier": "@jill64/prettier-config",
   "devDependencies": {
-    "@jill64/eslint-config-ts": "1.1.26",
+    "@jill64/eslint-config-ts": "1.1.27",
     "@jill64/prettier-config": "1.0.0",
     "@types/node": "20.14.8",
     "typescript": "5.5.2"
