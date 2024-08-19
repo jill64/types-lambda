@@ -2,11 +2,11 @@
 
 # @jill64/types-lambda
 
-
 <!----- BEGIN GHOST DOCS BADGES ----->
-<a href="https://npmjs.com/package/@jill64/types-lambda"><img src="https://img.shields.io/npm/v/@jill64/types-lambda" alt="npm-version" /></a> <a href="https://npmjs.com/package/@jill64/types-lambda"><img src="https://img.shields.io/npm/l/@jill64/types-lambda" alt="npm-license" /></a> <a href="https://npmjs.com/package/@jill64/types-lambda"><img src="https://img.shields.io/npm/dm/@jill64/types-lambda" alt="npm-download-month" /></a> <a href="https://npmjs.com/package/@jill64/types-lambda"><img src="https://img.shields.io/bundlephobia/min/@jill64/types-lambda" alt="npm-min-size" /></a>
-<!----- END GHOST DOCS BADGES ----->
 
+<a href="https://npmjs.com/package/@jill64/types-lambda"><img src="https://img.shields.io/npm/v/@jill64/types-lambda" alt="npm-version" /></a> <a href="https://npmjs.com/package/@jill64/types-lambda"><img src="https://img.shields.io/npm/l/@jill64/types-lambda" alt="npm-license" /></a> <a href="https://npmjs.com/package/@jill64/types-lambda"><img src="https://img.shields.io/npm/dm/@jill64/types-lambda" alt="npm-download-month" /></a> <a href="https://npmjs.com/package/@jill64/types-lambda"><img src="https://img.shields.io/bundlephobia/min/@jill64/types-lambda" alt="npm-min-size" /></a>
+
+<!----- END GHOST DOCS BADGES ----->
 
 λ Unofficial AWS Lambda type definition
 
