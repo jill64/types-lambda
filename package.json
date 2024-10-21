@@ -32,7 +32,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/types-lambda.git",
-    "image": "https://opengraph.githubassets.com/6534f61e5048c3dfbcaf812528df443f55c943757c0b7644cf4e68093a5b55f9/jill64/types-lambda"
+    "image": "https://opengraph.githubassets.com/7259b45931eb00b62c58396e61a37b794d6e5387a152a0ba2f8d3254945fc433/jill64/types-lambda"
   },
   "publishConfig": {
     "access": "public"
