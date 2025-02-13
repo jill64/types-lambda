@@ -32,7 +32,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/types-lambda.git",
-    "image": "https://opengraph.githubassets.com/726191a0005c8be316b9ee49cb54311459194ca602703a10da6a1d8053c26b69/jill64/types-lambda"
+    "image": "https://opengraph.githubassets.com/32931021cdbeac3528c5cf33243c8bb38a8dc8c3ea8beebed47266c0ba5e3d24/jill64/types-lambda"
   },
   "publishConfig": {
     "access": "public"
@@ -48,7 +48,7 @@
   "devDependencies": {
     "@jill64/eslint-config-ts": "2.0.9",
     "@jill64/prettier-config": "1.0.0",
-    "@types/node": "22.13.1",
+    "@types/node": "22.13.2",
     "typescript": "5.7.3"
   }
 }
